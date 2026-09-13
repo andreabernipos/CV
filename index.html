@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrea Iorio Benjamin Berni | Operações, Projetos e Processos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="#inicio">AIBB</a>
+      <nav class="nav" aria-label="Seções da página">
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Alternar tema claro e escuro">
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+          <span class="theme-toggle-text">Tema</span>
+        </button>
+        <a class="btn btn-primary" href="mailto:andrea.ibberni@gmail.com">Fale comigo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="nome">
+      <p class="section-kicker">Currículo em página única</p>
+      <h1 id="nome">Andrea Iorio Benjamin Berni</h1>
+      <p class="headline">Operações · Projetos · Processos</p>
+      <p class="hero-lead">
+        Organização de rotinas, clareza de indicadores e melhoria contínua entre áreas —
+        do planejamento à execução.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#experiencia">Ver trajetória</a>
+        <a class="btn btn-ghost" href="#projetos">Ver projetos</a>
+      </div>
+    </section>
+
+    <section class="section section-band" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="section-header">
+        <p class="section-kicker">01</p>
+        <h2 id="titulo-sobre">Sobre</h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-text">
+          Atuo na interseção entre operação e projetos: coordenar o dia a dia, documentar o que importa
+          e transformar processos em fluxos mais previsíveis. Este espaço reúne experiência, idiomas e
+          trabalhos recentes — pensado para leitura rápida, como uma landing, não como um documento estático.
+        </p>
+        <ul class="about-highlights">
+          <li>Rotinas operacionais e indicadores</li>
+          <li>Planejamento e acompanhamento de projetos</li>
+          <li>Mapeamento e melhoria de processos</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia" aria-labelledby="titulo-experiencia">
+      <div class="section-header">
+        <p class="section-kicker">02</p>
+        <h2 id="titulo-experiencia">Experiência profissional</h2>
+      </div>
+      <div class="timeline" id="experienceList"></div>
+    </section>
+
+    <section class="section section-band" id="idiomas" aria-labelledby="titulo-idiomas">
+      <div class="section-header">
+        <p class="section-kicker">03</p>
+        <h2 id="titulo-idiomas">Idiomas</h2>
+      </div>
+      <ul class="languages" id="languagesList"></ul>
+    </section>
+
+    <section class="section" id="projetos" aria-labelledby="titulo-projetos">
+      <div class="section-header">
+        <p class="section-kicker">04</p>
+        <h2 id="titulo-projetos">Projetos</h2>
+      </div>
+      <div class="projects" id="projectsList"></div>
+    </section>
+
+    <section class="section cta" id="contato" aria-labelledby="titulo-contato">
+      <p class="section-kicker">05</p>
+      <h2 id="titulo-contato">Vamos conversar</h2>
+      <p class="cta-lead">Disponível para oportunidades em operações, projetos e processos.</p>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">E-mail</span>
+          <a href="mailto:andrea.ibberni@gmail.com">andrea.ibberni@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">Telefone</span>
+          <a href="tel:+5511973490976">11-97349.0976</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Atualizado em <time id="updatedAt" datetime=""></time></p>
+    <a href="#inicio">Voltar ao início</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
